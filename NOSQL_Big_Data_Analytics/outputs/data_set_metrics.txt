@@ -1,0 +1,133 @@
+
+Number of words - 71150
+Number of filtered (useful) words (without stop words) - 32278
+Number of good words (praises) - 1248
+Number of bad words (words with bad comment) - 140
+
+
+2007_audi_a3
+Number of words - 4993
+Number of filtered (useful) words (without stop words) - 2292
+Number of good words (praises) - 105
+Number of bad words (words with bad comment) - 18
+
+
+2007_audi_a4
+Number of words - 9261
+Number of filtered (useful) words (without stop words) - 4170
+Number of good words (praises) - 171
+Number of bad words (words with bad comment) - 21
+
+
+2007_audi_a6
+Number of words - 2302
+Number of filtered (useful) words (without stop words) - 1053
+Number of good words (praises) - 56
+Number of bad words (words with bad comment) - 9
+
+
+2007_audi_a8
+Number of words - 1967
+Number of filtered (useful) words (without stop words) - 867
+Number of good words (praises) - 26
+Number of bad words (words with bad comment) - 0
+
+
+2007_audi_q7
+Number of words - 7491
+Number of filtered (useful) words (without stop words) - 3413
+Number of good words (praises) - 117
+Number of bad words (words with bad comment) - 17
+
+
+2007_audi_rs4
+Number of words - 2720
+Number of filtered (useful) words (without stop words) - 1143
+Number of good words (praises) - 36
+Number of bad words (words with bad comment) - 5
+
+
+2007_audi_s8
+Number of words - 1355
+Number of filtered (useful) words (without stop words) - 573
+Number of good words (praises) - 30
+Number of bad words (words with bad comment) - 3
+
+
+2008_audi_a3
+Number of words - 2996
+Number of filtered (useful) words (without stop words) - 1315
+Number of good words (praises) - 58
+Number of bad words (words with bad comment) - 7
+
+
+2008_audi_a4
+Number of words - 4115
+Number of filtered (useful) words (without stop words) - 1876
+Number of good words (praises) - 70
+Number of bad words (words with bad comment) - 2
+
+
+2008_audi_a5
+Number of words - 2551
+Number of filtered (useful) words (without stop words) - 1124
+Number of good words (praises) - 32
+Number of bad words (words with bad comment) - 0
+
+
+2008_audi_a6
+Number of words - 3088
+Number of filtered (useful) words (without stop words) - 1400
+Number of good words (praises) - 64
+Number of bad words (words with bad comment) - 5
+
+
+2008_audi_q7
+Number of words - 2208
+Number of filtered (useful) words (without stop words) - 1018
+Number of good words (praises) - 28
+Number of bad words (words with bad comment) - 5
+
+
+2008_audi_rs4
+Number of words - 1402
+Number of filtered (useful) words (without stop words) - 624
+Number of good words (praises) - 20
+Number of bad words (words with bad comment) - 1
+
+
+2008_audi_s5
+Number of words - 1718
+Number of filtered (useful) words (without stop words) - 780
+Number of good words (praises) - 36
+Number of bad words (words with bad comment) - 0
+
+
+2008_audi_tt
+Number of words - 3910
+Number of filtered (useful) words (without stop words) - 1746
+Number of good words (praises) - 61
+Number of bad words (words with bad comment) - 6
+
+
+2009_audi_a4
+Number of words - 10825
+Number of filtered (useful) words (without stop words) - 5123
+Number of good words (praises) - 195
+Number of bad words (words with bad comment) - 27
+
+
+2009_audi_a5
+Number of words - 3154
+Number of filtered (useful) words (without stop words) - 1446
+Number of good words (praises) - 50
+Number of bad words (words with bad comment) - 6
+
+
+2009_audi_q5
+Number of words - 5111
+Number of filtered (useful) words (without stop words) - 2316
+Number of good words (praises) - 93
+Number of bad words (words with bad comment) - 8
+
+

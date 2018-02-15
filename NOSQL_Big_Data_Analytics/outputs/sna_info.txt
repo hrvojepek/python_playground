@@ -1,0 +1,20 @@
+Info:
+Name: 
+Type: Graph
+Number of nodes: 101
+Number of edges: 86
+Average degree:   1.7030
+Degree histogram:
+[0, 67, 22, 7, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+Density:
+0.01702970297029703
+Number of nodes :
+101
+Number of edges :
+86
+Sorted degree :
+[('car', 0.17), ('like', 0.08), ('drive', 0.06), ('great', 0.05), ('interior', 0.04)]
+Sorted betweenness :
+[('car', 0.10707070707070707), ('great', 0.060909090909090906), ('sound', 0.0397979797979798), ('drive', 0.03202020202020202), ('like', 0.02898989898989899)]
+Sorted closeness :
+[('car', 0.18512820512820513), ('great', 0.15526881720430108), ('handles', 0.14585858585858585), ('drive', 0.1415686274509804), ('like', 0.13884615384615384)]
