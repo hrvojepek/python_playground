@@ -186,9 +186,29 @@ def most_common_concordance(size):
         print(Text(tokens).concordance(word))
 
 
-def concordance_by_word(word):
-    sys.stdout = open('concordance/' + word + '.txt', "w")
-    print(Text(tokens).concordance(word, width=200, lines=100))
+def concordance_by_word(word, car_name):
+    if not os.path.exists("./concordance/" + car_name):
+        os.makedirs("./concordance/" + car_name)
+
+    col_find = []
+    all_text = ''
+    if car_name != '':
+        col_find = [a for a in coll_posts.find({'name': car_name})]
+    else:
+        col_find = [a for a in coll_posts.find()]
+
+    for doc in col_find:
+        for data in doc['data_array']:
+            all_text += data['text']
+            all_text += data['favorite']
+
+    # if a.isalpha()
+    all_words = [a for a in all_text.lower().split()]
+
+    all_tokens = nltk.word_tokenize(' '.join(all_words))
+
+    sys.stdout = open('concordance/' + car_name + '/' + word + '.txt', "w")
+    print(Text(all_tokens).concordance(word, width=200, lines=100))
 
 
 def get_word_synonyms_from_words(word, words):
@@ -393,8 +413,11 @@ if __name__ == '__main__':
     print_to_file('outputs', 'data_set_metrics.txt', data_set_metrics)
 
     # Concordance by wanted words
-    wanted_words_concordance = ['price', 'engine', 'brakes', 'interior', 'power', 'transmission']
+    wanted_words_concordance = ['price', 'engine', 'brakes', 'interior', 'handling', 'transmission', 'problem']
     for word in wanted_words_concordance:
-        concordance_by_word(word)
+        concordance_by_word(word, '')
+    for file in os.listdir(directory):
+        for word in wanted_words_concordance:
+            concordance_by_word(word, file)
 
     # drop_database()
